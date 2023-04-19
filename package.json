@@ -1,0 +1,27 @@
+{
+  "name": "palestra-nic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giadavolpin/palestra-nic.git"
+  },
+  "author": "giada volpin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giadavolpin/palestra-nic/issues"
+  },
+  "homepage": "https://github.com/giadavolpin/palestra-nic#readme",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql-migrations": "^1.0.7",
+    "mysql2": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
