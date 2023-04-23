@@ -6,5 +6,6 @@ module.exports = {
         prezzo  DECIMAL(6,2) DEFAULT 0,
         PRIMARY KEY (id)
         );`,
-    "down": ""
+    "down": "DROP TABLE IF EXISTS products"
+    
 }

@@ -6,5 +6,5 @@ const connection = mysql.createPool({  //inizializzato var connection collegando
     database: "palestra-nic",
     password: "root"
 }) 
-module.exports = connection
+module.exports = connection  // module.exports = richiama da un'altro file, e connection= comunica con il db
 
